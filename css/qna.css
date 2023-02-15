@@ -1,0 +1,77 @@
+#qna {
+  display: none;
+  width: 100%;
+  margin-top: 140px;
+}
+
+.qBox {
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+  color: whitesmoke;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: rgb(79, 219, 66);
+}
+
+.answerList {
+  width: 100%;
+  background-color: rgb(33, 31, 31);
+  display: block;
+  border: 0px;
+  font-size: 16px;
+  text-align: center;
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+.answerList:hover,
+.answerList:focus {
+  color: rgb(79, 219, 66);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.status_box {
+  width: 100%;
+}
+.status {
+  height: 20px;
+  background-color: rgb(33, 31, 31);
+  border: 3px solid rgb(79, 219, 66);
+  box-sizing: border-box;
+  margin: 0 10%;
+}
+
+.statusBar {
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#9dd53a+0,a1d54f+50,80c217+51,7cbc0a+100;Green+Gloss+%231 */
+  background: #9dd53a; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #9dd53a 0%,
+    #a1d54f 50%,
+    #80c217 51%,
+    #7cbc0a 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #9dd53a 0%,
+    #a1d54f 50%,
+    #80c217 51%,
+    #7cbc0a 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #9dd53a 0%,
+    #a1d54f 50%,
+    #80c217 51%,
+    #7cbc0a 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
+} /* https://colorzilla.com/gradient-editor < 그라디언트 배경 만들기 사이트*/
+
+@media (max-width: 768px) {
+}
+
+@media (min-width: 769px) {
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8fd2a045-df9c-41df-ba72-3e0b2dae1f4c" name="ec2" url="">
+        <fileTransfer rootFolder="/var/www/html" accessType="SFTP" host="13.125.47.12" port="22" sshConfigId="a4e44640-1d2b-488e-ab54-bad34dd5c122" sshConfig="ubuntu@13.125.47.12:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
